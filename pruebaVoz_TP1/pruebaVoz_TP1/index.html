@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sketch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Librerías p5 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+
+
+  <!-- Tu código -->
+ <script src="A_Control_Voz.js"></script>
+<script src="A_Mancha.js"></script>
+<script src="A_Sistema_Manchas.js"></script>
+<script src="pruebaVoz_TP1.js"></script>  
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    canvas {
+      display: block;
+    }
+    button {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+<button id="startBtn" onclick="iniciarMicrofono()">Iniciar</button>
+</body>
+</html>
